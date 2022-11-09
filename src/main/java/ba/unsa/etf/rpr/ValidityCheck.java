@@ -18,5 +18,6 @@ public class ValidityCheck {
         }
         if (numberOfLeftPar != numberOfRightPar || numberOfLeftPar != numberOfOperators)
             throw new RuntimeException();
+
     }
 }
