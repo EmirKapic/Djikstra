@@ -18,7 +18,7 @@ class OperatorAndOperand {
     /**
      * For the given char checks if it is an operand, in other words, if its a number
      * @param c the character to check
-     * @return true if it's a number, otherwise false
+     * @return true if it's a number, otherwise falsee
      */
     static boolean isOperand(char c){
         return Character.isDigit(c);

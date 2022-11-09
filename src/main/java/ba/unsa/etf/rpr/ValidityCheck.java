@@ -12,7 +12,7 @@ class ValidityCheck {
     /**
      * if the string is an arithmetic expression does nothing, otherwise throws RuntimeException
      * @param s the string to be evaluated
-     * @throws RuntimeException if the string isn't correct
+     * @throws RuntimeException if the string isn't correctt
      */
     static void check(String s){
 
