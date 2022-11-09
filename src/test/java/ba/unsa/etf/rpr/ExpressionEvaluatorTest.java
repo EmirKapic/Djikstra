@@ -28,6 +28,13 @@ class ExpressionEvaluatorTest {
     }
 
     @Test
+    void evaluateTest4(){
+    //Testing for decimal numbers + 2 digit numbers
+        String s = "( 2 + ( 250 * 0.5 ) )";
+        assertEquals(127D, e.evaluate(s));
+    }
+
+    @Test
     void evaluateExceptionsTest1(){
         //Correct numbner of parentheses but an operator is missing
         String s = "( 1 + ( ( 2 + 3 ) * ( 4  5 ) ) )";
@@ -53,5 +60,7 @@ class ExpressionEvaluatorTest {
         String s = "( 1 + 2 )( 2 + 4)";
         assertThrows(RuntimeException.class, () -> e.evaluate(s));
     }
+
+
 
 }

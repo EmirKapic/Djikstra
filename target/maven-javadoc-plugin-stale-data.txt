@@ -1,25 +1,142 @@
-cmd.exe
-/X
-/C
-""C:\Program Files\Java\jdk-12.0.2\bin\javadoc.exe" @options @packages"
-D:\Java Projects\Djikstra\target\site\testapidocs\allclasses-index.html = 1668022910838
-D:\Java Projects\Djikstra\target\site\testapidocs\allpackages-index.html = 1668022910841
-D:\Java Projects\Djikstra\target\site\testapidocs\argfile = 1668022130742
-D:\Java Projects\Djikstra\target\site\testapidocs\constant-values.html = 1668022910763
-D:\Java Projects\Djikstra\target\site\testapidocs\deprecated-list.html = 1668022910810
-D:\Java Projects\Djikstra\target\site\testapidocs\element-list = 1668022910740
-D:\Java Projects\Djikstra\target\site\testapidocs\help-doc.html = 1668022910857
-D:\Java Projects\Djikstra\target\site\testapidocs\index-all.html = 1668022910831
-D:\Java Projects\Djikstra\target\site\testapidocs\index.html = 1668022910845
-D:\Java Projects\Djikstra\target\site\testapidocs\member-search-index.js = 1668022910829
-D:\Java Projects\Djikstra\target\site\testapidocs\member-search-index.zip = 1668022910829
-D:\Java Projects\Djikstra\target\site\testapidocs\options = 1668022908975
-D:\Java Projects\Djikstra\target\site\testapidocs\overview-tree.html = 1668022910795
-D:\Java Projects\Djikstra\target\site\testapidocs\package-search-index.js = 1668022910824
-D:\Java Projects\Djikstra\target\site\testapidocs\package-search-index.zip = 1668022910826
-D:\Java Projects\Djikstra\target\site\testapidocs\packages = 1668022908978
-D:\Java Projects\Djikstra\target\site\testapidocs\script.js = 1668022910881
-D:\Java Projects\Djikstra\target\site\testapidocs\search.js = 1668022910885
-D:\Java Projects\Djikstra\target\site\testapidocs\stylesheet.css = 1668022910873
-D:\Java Projects\Djikstra\target\site\testapidocs\type-search-index.js = 1668022910827
-D:\Java Projects\Djikstra\target\site\testapidocs\type-search-index.zip = 1668022910828
+@options
+@packages
+@argfile
+-classpath
+'D:/Java Projects/Djikstra/target/classes;D:/Java Projects/Djikstra/target/test-classes;C:/Users/Home/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar;C:/Users/Home/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar;C:/Users/Home/.m2/repository/org/junit/platform/junit-platform-commons/1.9.0/junit-platform-commons-1.9.0.jar;C:/Users/Home/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar;C:/Users/Home/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.0/junit-jupiter-engine-5.9.0.jar;C:/Users/Home/.m2/repository/org/junit/platform/junit-platform-engine/1.9.0/junit-platform-engine-1.9.0.jar;C:/Users/Home/.m2/repository/org/apache/maven/plugins/maven-javadoc-plugin/3.4.1/maven-javadoc-plugin-3.4.1.jar;C:/Users/Home/.m2/repository/org/apache/maven/maven-core/3.2.5/maven-core-3.2.5.jar;C:/Users/Home/.m2/repository/org/apache/maven/maven-settings-builder/3.2.5/maven-settings-builder-3.2.5.jar;C:/Users/Home/.m2/repository/org/apache/maven/maven-repository-metadata/3.2.5/maven-repository-metadata-3.2.5.jar;C:/Users/Home/.m2/repository/org/apache/maven/maven-model-builder/3.2.5/maven-model-builder-3.2.5.jar;C:/Users/Home/.m2/repository/org/apache/maven/maven-aether-provider/3.2.5/maven-aether-provider-3.2.5.jar;C:/Users/Home/.m2/repository/org/eclipse/aether/aether-spi/1.0.0.v20140518/aether-spi-1.0.0.v20140518.jar;C:/Users/Home/.m2/repository/org/eclipse/aether/aether-impl/1.0.0.v20140518/aether-impl-1.0.0.v20140518.jar;C:/Users/Home/.m2/repository/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar;C:/Users/Home/.m2/repository/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar;C:/Users/Home/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0.M1/org.eclipse.sisu.plexus-0.3.0.M1.jar;C:/Users/Home/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar;C:/Users/Home/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar;C:/Users/Home/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0.M1/org.eclipse.sisu.inject-0.3.0.M1.jar;C:/Users/Home/.m2/repository/org/sonatype/sisu/sisu-guice/3.2.3/sisu-guice-3.2.3-no_aop.jar;C:/Users/Home/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar;C:/Users/Home/.m2/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar;C:/Users/Home/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.21/plexus-interpolation-1.21.jar;C:/Users/Home/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar;C:/Users/Home/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar;C:/Users/Home/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar;C:/Users/Home/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar;C:/Users/Home/.m2/repository/org/apache/maven/maven-model/3.2.5/maven-model-3.2.5.jar;C:/Users/Home/.m2/repository/org/apache/maven/maven-settings/3.2.5/maven-settings-3.2.5.jar;C:/Users/Home/.m2/repository/org/apache/maven/maven-plugin-api/3.2.5/maven-plugin-api-3.2.5.jar;C:/Users/Home/.m2/repository/org/apache/maven/maven-artifact/3.2.5/maven-artifact-3.2.5.jar;C:/Users/Home/.m2/repository/org/apache/maven/reporting/maven-reporting-api/3.1.1/maven-reporting-api-3.1.1.jar;C:/Users/Home/.m2/repository/org/apache/maven/maven-archiver/3.6.0/maven-archiver-3.6.0.jar;C:/Users/Home/.m2/repository/org/codehaus/plexus/plexus-io/3.4.0/plexus-io-3.4.0.jar;C:/Users/Home/.m2/repository/org/codehaus/plexus/plexus-archiver/4.4.0/plexus-archiver-4.4.0.jar;C:/Users/Home/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar;C:/Users/Home/.m2/repository/org/iq80/snappy/snappy/0.4/snappy-0.4.jar;C:/Users/Home/.m2/repository/org/tukaani/xz/1.9/xz-1.9.jar;C:/Users/Home/.m2/repository/org/apache/maven/shared/maven-invoker/3.1.0/maven-invoker-3.1.0.jar;C:/Users/Home/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.3.3/maven-shared-utils-3.3.3.jar;C:/Users/Home/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar;C:/Users/Home/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.jar;C:/Users/Home/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar;C:/Users/Home/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar;C:/Users/Home/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar;C:/Users/Home/.m2/repository/org/apache/maven/shared/maven-artifact-transfer/0.13.1/maven-artifact-transfer-0.13.1.jar;C:/Users/Home/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar;C:/Users/Home/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.11.1/doxia-sink-api-1.11.1.jar;C:/Users/Home/.m2/repository/org/apache/maven/doxia/doxia-logging-api/1.11.1/doxia-logging-api-1.11.1.jar;C:/Users/Home/.m2/repository/org/apache/maven/doxia/doxia-site-renderer/1.11.1/doxia-site-renderer-1.11.1.jar;C:/Users/Home/.m2/repository/org/apache/maven/doxia/doxia-core/1.11.1/doxia-core-1.11.1.jar;C:/Users/Home/.m2/repository/org/apache/maven/doxia/doxia-decoration-model/1.11.1/doxia-decoration-model-1.11.1.jar;C:/Users/Home/.m2/repository/org/apache/maven/doxia/doxia-skin-model/1.11.1/doxia-skin-model-1.11.1.jar;C:/Users/Home/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml/1.11.1/doxia-module-xhtml-1.11.1.jar;C:/Users/Home/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml5/1.11.1/doxia-module-xhtml5-1.11.1.jar;C:/Users/Home/.m2/repository/org/codehaus/plexus/plexus-i18n/1.0-beta-10/plexus-i18n-1.0-beta-10.jar;C:/Users/Home/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.jar;C:/Users/Home/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar;C:/Users/Home/.m2/repository/org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.jar;C:/Users/Home/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar;C:/Users/Home/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar;C:/Users/Home/.m2/repository/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar;C:/Users/Home/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar;C:/Users/Home/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar;C:/Users/Home/.m2/repository/commons-chain/commons-chain/1.1/commons-chain-1.1.jar;C:/Users/Home/.m2/repository/dom4j/dom4j/1.1/dom4j-1.1.jar;C:/Users/Home/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar;C:/Users/Home/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar;C:/Users/Home/.m2/repository/org/apache/maven/wagon/wagon-provider-api/2.4/wagon-provider-api-2.4.jar;C:/Users/Home/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar;C:/Users/Home/.m2/repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar;C:/Users/Home/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar;C:/Users/Home/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar;C:/Users/Home/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar;C:/Users/Home/.m2/repository/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar;C:/Users/Home/.m2/repository/com/thoughtworks/qdox/qdox/2.0.1/qdox-2.0.1.jar;C:/Users/Home/.m2/repository/org/codehaus/plexus/plexus-java/1.1.0/plexus-java-1.1.0.jar;C:/Users/Home/.m2/repository/org/ow2/asm/asm/9.2/asm-9.2.jar;C:/Users/Home/.m2/repository/org/codehaus/plexus/plexus-utils/3.4.2/plexus-utils-3.4.2.jar;C:/Users/Home/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar;C:/Users/Home/.m2/repository/org/codehaus/plexus/plexus-interactivity-api/1.1/plexus-interactivity-api-1.1.jar;C:/Users/Home/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.0/jackson-databind-2.14.0.jar;C:/Users/Home/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.0/jackson-annotations-2.14.0.jar;C:/Users/Home/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.0/jackson-core-2.14.0.jar;C:/Users/Home/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.14.0/jackson-dataformat-xml-2.14.0.jar;C:/Users/Home/.m2/repository/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar;C:/Users/Home/.m2/repository/com/fasterxml/woodstox/woodstox-core/6.4.0/woodstox-core-6.4.0.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'8'
+-sourcepath
+'D:/Java Projects/Djikstra/src/test/java'
+-package
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'D:/Java Projects/Djikstra/target/site/testapidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Djikstra 1.0 Test API'
+-link
+'../apidocs'
+-use
+-version
+-windowtitle
+'Djikstra 1.0 Test API'
+ba.unsa.etf.rpr
+'D:/Java Projects/Djikstra/src/test/java/ba/unsa/etf/rpr/ExpressionEvaluatorTest.java'
+'D:/Java Projects/Djikstra/src/test/java/ba/unsa/etf/rpr/ValidityCheckTest.java'
+D:\Java Projects\Djikstra\target\classes = 1668024947265
+D:\Java Projects\Djikstra\target\test-classes = 1668020104706
+C:\Users\Home\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar = 1667834667398
+C:\Users\Home\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar = 1667230641306
+C:\Users\Home\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar = 1667834667284
+C:\Users\Home\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar = 1667230641401
+C:\Users\Home\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar = 1667834667402
+C:\Users\Home\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar = 1667834667393
+C:\Users\Home\.m2\repository\org\apache\maven\plugins\maven-javadoc-plugin\3.4.1\maven-javadoc-plugin-3.4.1.jar = 1668009331678
+C:\Users\Home\.m2\repository\org\apache\maven\maven-core\3.2.5\maven-core-3.2.5.jar = 1668010066348
+C:\Users\Home\.m2\repository\org\apache\maven\maven-settings-builder\3.2.5\maven-settings-builder-3.2.5.jar = 1668010066039
+C:\Users\Home\.m2\repository\org\apache\maven\maven-repository-metadata\3.2.5\maven-repository-metadata-3.2.5.jar = 1668010066125
+C:\Users\Home\.m2\repository\org\apache\maven\maven-model-builder\3.2.5\maven-model-builder-3.2.5.jar = 1668010066218
+C:\Users\Home\.m2\repository\org\apache\maven\maven-aether-provider\3.2.5\maven-aether-provider-3.2.5.jar = 1668010066165
+C:\Users\Home\.m2\repository\org\eclipse\aether\aether-spi\1.0.0.v20140518\aether-spi-1.0.0.v20140518.jar = 1668010066133
+C:\Users\Home\.m2\repository\org\eclipse\aether\aether-impl\1.0.0.v20140518\aether-impl-1.0.0.v20140518.jar = 1668010066314
+C:\Users\Home\.m2\repository\org\eclipse\aether\aether-api\1.0.0.v20140518\aether-api-1.0.0.v20140518.jar = 1668010066338
+C:\Users\Home\.m2\repository\org\eclipse\aether\aether-util\1.0.0.v20140518\aether-util-1.0.0.v20140518.jar = 1668010066345
+C:\Users\Home\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.0.M1\org.eclipse.sisu.plexus-0.3.0.M1.jar = 1668010066405
+C:\Users\Home\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar = 1668010066420
+C:\Users\Home\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar = 1668010066420
+C:\Users\Home\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.0.M1\org.eclipse.sisu.inject-0.3.0.M1.jar = 1668010066556
+C:\Users\Home\.m2\repository\org\sonatype\sisu\sisu-guice\3.2.3\sisu-guice-3.2.3-no_aop.jar = 1668010066504
+C:\Users\Home\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar = 1668010066500
+C:\Users\Home\.m2\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar = 1668010069267
+C:\Users\Home\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.21\plexus-interpolation-1.21.jar = 1668010066549
+C:\Users\Home\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.5.2\plexus-classworlds-2.5.2.jar = 1667679351868
+C:\Users\Home\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar = 1666011954355
+C:\Users\Home\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar = 1666014519697
+C:\Users\Home\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar = 1666014519698
+C:\Users\Home\.m2\repository\org\apache\maven\maven-model\3.2.5\maven-model-3.2.5.jar = 1668010066722
+C:\Users\Home\.m2\repository\org\apache\maven\maven-settings\3.2.5\maven-settings-3.2.5.jar = 1668010066631
+C:\Users\Home\.m2\repository\org\apache\maven\maven-plugin-api\3.2.5\maven-plugin-api-3.2.5.jar = 1668010066652
+C:\Users\Home\.m2\repository\org\apache\maven\maven-artifact\3.2.5\maven-artifact-3.2.5.jar = 1668010066686
+C:\Users\Home\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.1.1\maven-reporting-api-3.1.1.jar = 1668010066735
+C:\Users\Home\.m2\repository\org\apache\maven\maven-archiver\3.6.0\maven-archiver-3.6.0.jar = 1668010066765
+C:\Users\Home\.m2\repository\org\codehaus\plexus\plexus-io\3.4.0\plexus-io-3.4.0.jar = 1668010066784
+C:\Users\Home\.m2\repository\org\codehaus\plexus\plexus-archiver\4.4.0\plexus-archiver-4.4.0.jar = 1668010067051
+C:\Users\Home\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar = 1668010067134
+C:\Users\Home\.m2\repository\org\iq80\snappy\snappy\0.4\snappy-0.4.jar = 1666027486856
+C:\Users\Home\.m2\repository\org\tukaani\xz\1.9\xz-1.9.jar = 1668010066968
+C:\Users\Home\.m2\repository\org\apache\maven\shared\maven-invoker\3.1.0\maven-invoker-3.1.0.jar = 1668010067032
+C:\Users\Home\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.3\maven-shared-utils-3.3.3.jar = 1667678599607
+C:\Users\Home\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar = 1668010067080
+C:\Users\Home\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.1.1\maven-common-artifact-filters-3.1.1.jar = 1667234572554
+C:\Users\Home\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar = 1666014519606
+C:\Users\Home\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar = 1666014519610
+C:\Users\Home\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar = 1666014519731
+C:\Users\Home\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.13.1\maven-artifact-transfer-0.13.1.jar = 1667678602164
+C:\Users\Home\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar = 1667678602272
+C:\Users\Home\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.11.1\doxia-sink-api-1.11.1.jar = 1668010067123
+C:\Users\Home\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.11.1\doxia-logging-api-1.11.1.jar = 1668010067140
+C:\Users\Home\.m2\repository\org\apache\maven\doxia\doxia-site-renderer\1.11.1\doxia-site-renderer-1.11.1.jar = 1668010067190
+C:\Users\Home\.m2\repository\org\apache\maven\doxia\doxia-core\1.11.1\doxia-core-1.11.1.jar = 1668010067312
+C:\Users\Home\.m2\repository\org\apache\maven\doxia\doxia-decoration-model\1.11.1\doxia-decoration-model-1.11.1.jar = 1668010067224
+C:\Users\Home\.m2\repository\org\apache\maven\doxia\doxia-skin-model\1.11.1\doxia-skin-model-1.11.1.jar = 1668010067261
+C:\Users\Home\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml\1.11.1\doxia-module-xhtml-1.11.1.jar = 1668010067681
+C:\Users\Home\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml5\1.11.1\doxia-module-xhtml5-1.11.1.jar = 1668010067311
+C:\Users\Home\.m2\repository\org\codehaus\plexus\plexus-i18n\1.0-beta-10\plexus-i18n-1.0-beta-10.jar = 1667679351796
+C:\Users\Home\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-30\plexus-container-default-1.0-alpha-30.jar = 1666014520035
+C:\Users\Home\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar = 1666011945854
+C:\Users\Home\.m2\repository\org\codehaus\plexus\plexus-velocity\1.2\plexus-velocity-1.2.jar = 1667678602352
+C:\Users\Home\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar = 1667678602914
+C:\Users\Home\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar = 1667678603588
+C:\Users\Home\.m2\repository\org\apache\velocity\velocity-tools\2.0\velocity-tools-2.0.jar = 1666014520684
+C:\Users\Home\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar = 1666014520689
+C:\Users\Home\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar = 1666014520791
+C:\Users\Home\.m2\repository\commons-chain\commons-chain\1.1\commons-chain-1.1.jar = 1666014520688
+C:\Users\Home\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar = 1666014521460
+C:\Users\Home\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar = 1666014521699
+C:\Users\Home\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar = 1667678603463
+C:\Users\Home\.m2\repository\org\apache\maven\wagon\wagon-provider-api\2.4\wagon-provider-api-2.4.jar = 1668010030119
+C:\Users\Home\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar = 1668010067857
+C:\Users\Home\.m2\repository\org\apache\commons\commons-text\1.9\commons-text-1.9.jar = 1668010067613
+C:\Users\Home\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar = 1668010068894
+C:\Users\Home\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar = 1668010031312
+C:\Users\Home\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar = 1668010030443
+C:\Users\Home\.m2\repository\org\apache\httpcomponents\httpcore\4.4.15\httpcore-4.4.15.jar = 1668010068379
+C:\Users\Home\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar = 1667234572931
+C:\Users\Home\.m2\repository\org\codehaus\plexus\plexus-java\1.1.0\plexus-java-1.1.0.jar = 1668010067908
+C:\Users\Home\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar = 1667234572573
+C:\Users\Home\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.2\plexus-utils-3.4.2.jar = 1668010068070
+C:\Users\Home\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar = 1667234572585
+C:\Users\Home\.m2\repository\org\codehaus\plexus\plexus-interactivity-api\1.1\plexus-interactivity-api-1.1.jar = 1667678601750
+C:\Users\Home\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar = 1668008181052
+C:\Users\Home\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar = 1668008180756
+C:\Users\Home\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar = 1668008180670
+C:\Users\Home\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.14.0\jackson-dataformat-xml-2.14.0.jar = 1668008180665
+C:\Users\Home\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.1\stax2-api-4.2.1.jar = 1667831829567
+C:\Users\Home\.m2\repository\com\fasterxml\woodstox\woodstox-core\6.4.0\woodstox-core-6.4.0.jar = 1668008181174
+D:\Java Projects\Djikstra\src\test\java = 1668012278235
+D:\Java Projects\Djikstra\target\site\testapidocs\allclasses-index.html = 1668026134219
+D:\Java Projects\Djikstra\target\site\testapidocs\allpackages-index.html = 1668026134222
+D:\Java Projects\Djikstra\target\site\testapidocs\constant-values.html = 1668026134143
+D:\Java Projects\Djikstra\target\site\testapidocs\deprecated-list.html = 1668026134185
+D:\Java Projects\Djikstra\target\site\testapidocs\element-list = 1668026134114
+D:\Java Projects\Djikstra\target\site\testapidocs\help-doc.html = 1668026134234
+D:\Java Projects\Djikstra\target\site\testapidocs\index-all.html = 1668026134213
+D:\Java Projects\Djikstra\target\site\testapidocs\index.html = 1668026134225
+D:\Java Projects\Djikstra\target\site\testapidocs\member-search-index.js = 1668026134210
+D:\Java Projects\Djikstra\target\site\testapidocs\member-search-index.zip = 1668026134211
+D:\Java Projects\Djikstra\target\site\testapidocs\overview-tree.html = 1668026134177
+D:\Java Projects\Djikstra\target\site\testapidocs\package-search-index.js = 1668026134204
+D:\Java Projects\Djikstra\target\site\testapidocs\package-search-index.zip = 1668026134206
+D:\Java Projects\Djikstra\target\site\testapidocs\script.js = 1668026134267
+D:\Java Projects\Djikstra\target\site\testapidocs\search.js = 1668026134281
+D:\Java Projects\Djikstra\target\site\testapidocs\stylesheet.css = 1668026134264
+D:\Java Projects\Djikstra\target\site\testapidocs\type-search-index.js = 1668026134208
+D:\Java Projects\Djikstra\target\site\testapidocs\type-search-index.zip = 1668026134209

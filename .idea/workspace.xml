@@ -4,11 +4,63 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d6b07ad-16df-4100-8c78-29401cc18fbc" name="Changes" comment="Working for whole numbers. left to implement support for decimal input.">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="8d6b07ad-16df-4100-8c78-29401cc18fbc" name="Changes" comment="a">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/ExpressionEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/ExpressionEvaluator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ba/unsa/etf/rpr/ExpressionEvaluatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ba/unsa/etf/rpr/ExpressionEvaluatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Djikstra-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Djikstra-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/ExpressionEvaluator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/ExpressionEvaluator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-javadoc-plugin-stale-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-javadoc-plugin-stale-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/ba/unsa/etf/rpr/App.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/ba/unsa/etf/rpr/App.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/ba/unsa/etf/rpr/ExpressionEvaluator.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/ba/unsa/etf/rpr/ExpressionEvaluator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/ba/unsa/etf/rpr/OperatorAndOperand.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/ba/unsa/etf/rpr/OperatorAndOperand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/ba/unsa/etf/rpr/ValidityCheck.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/ba/unsa/etf/rpr/ValidityCheck.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/ba/unsa/etf/rpr/class-use/App.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/ba/unsa/etf/rpr/class-use/App.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/ba/unsa/etf/rpr/class-use/ExpressionEvaluator.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/ba/unsa/etf/rpr/class-use/ExpressionEvaluator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/ba/unsa/etf/rpr/class-use/OperatorAndOperand.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/ba/unsa/etf/rpr/class-use/OperatorAndOperand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/ba/unsa/etf/rpr/class-use/ValidityCheck.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/ba/unsa/etf/rpr/class-use/ValidityCheck.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/ba/unsa/etf/rpr/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/ba/unsa/etf/rpr/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/ba/unsa/etf/rpr/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/ba/unsa/etf/rpr/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/ba/unsa/etf/rpr/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/ba/unsa/etf/rpr/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/member-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/member-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/package-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/package-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/type-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/type-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/plugins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/argfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/ba/unsa/etf/rpr/ExpressionEvaluatorTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/ba/unsa/etf/rpr/ExpressionEvaluatorTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/ba/unsa/etf/rpr/ValidityCheckTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/ba/unsa/etf/rpr/ValidityCheckTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/ba/unsa/etf/rpr/class-use/ExpressionEvaluatorTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/ba/unsa/etf/rpr/class-use/ExpressionEvaluatorTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/ba/unsa/etf/rpr/class-use/ValidityCheckTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/ba/unsa/etf/rpr/class-use/ValidityCheckTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/ba/unsa/etf/rpr/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/ba/unsa/etf/rpr/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/ba/unsa/etf/rpr/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/ba/unsa/etf/rpr/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/ba/unsa/etf/rpr/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/ba/unsa/etf/rpr/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/member-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/member-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/member-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/package-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/package-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/type-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/type-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ba.unsa.etf.rpr.ExpressionEvaluatorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ba.unsa.etf.rpr.ExpressionEvaluatorTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ba.unsa.etf.rpr.ValidityCheckTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ba.unsa.etf.rpr.ValidityCheckTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ba.unsa.etf.rpr.ExpressionEvaluatorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ba.unsa.etf.rpr.ExpressionEvaluatorTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ba.unsa.etf.rpr.ValidityCheckTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ba.unsa.etf.rpr.ValidityCheckTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ba/unsa/etf/rpr/ExpressionEvaluatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ba/unsa/etf/rpr/ExpressionEvaluatorTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +110,13 @@
     <option name="myCommands">
       <command value="mvn clean" />
       <command value="mvn clean install" />
-      <command value="mvn install" />
       <command value="mvn site" />
-      <command value="mvn site deploy" />
+      <command value="mvn install" />
       <command value="mvn package" />
+      <command value="mvn site deploy" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ExpressionEvaluatorTest">
     <configuration name="ExpressionEvaluatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Djikstra" />
       <extension name="coverage">
@@ -128,7 +180,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExpressionEvaluatorTest.evaluateTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExpressionEvaluatorTest.evaluateTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Djikstra" />
       <extension name="coverage">
         <pattern>
@@ -138,7 +190,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.ExpressionEvaluatorTest" />
-      <option name="METHOD_NAME" value="evaluateTest3" />
+      <option name="METHOD_NAME" value="evaluateTest4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,10 +199,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ExpressionEvaluatorTest" />
+        <item itemvalue="JUnit.ExpressionEvaluatorTest.evaluateTest4" />
         <item itemvalue="JUnit.ExpressionEvaluatorTest.evaluateExceptionsTest1" />
         <item itemvalue="JUnit.ExpressionEvaluatorTest.evaluateExceptionsTest2" />
         <item itemvalue="JUnit.ExpressionEvaluatorTest.evaluateExceptionsTest" />
-        <item itemvalue="JUnit.ExpressionEvaluatorTest.evaluateTest3" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +233,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1668023485752</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="a">
+      <created>1668023793798</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1668023793798</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +257,18 @@
     <MESSAGE value="intial commit" />
     <MESSAGE value="check for validity of input string + test" />
     <MESSAGE value="Working for whole numbers. left to implement support for decimal input." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working for whole numbers. left to implement support for decimal input." />
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/ExpressionEvaluator.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
