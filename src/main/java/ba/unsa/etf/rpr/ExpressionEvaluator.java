@@ -21,31 +21,16 @@ public class ExpressionEvaluator {
         for (int i = 0; i < s.length(); ++i){
             if (isOperator(s.charAt(i)))operators.push(String.valueOf(s.charAt(i)));
             else if (isOperand(s.charAt(i))) {
-                Double toBePushed = 0D;
-                if (s.charAt(i+1) == ' ') //if after the number there is only a space then its not a decimal number and we can simply push
+                if (s.charAt(i+1) == ' ') //if after the number there is only a space then it's not a decimal number and we can simply push
                     values.push((double) s.charAt(i) - 48);
-                else if (s.charAt(i+1) == '.'){ //otherwise look after decimal point
-                    toBePushed += (double)s.charAt(i) - 48; //the whole part
-                    i+=2;
-                    if (!Character.isDigit(s.charAt(i)))throw new RuntimeException(); //If after decimal point there is no number, it's wrong
-                    int factor = 10;
-                    do{
-                        toBePushed += (((double)s.charAt(i) - 48)/factor); //
-                        factor *= 10;
+                else if (Character.isDigit(s.charAt(i+1)) || s.charAt(i+1) == '.'){
+                    String num = String.valueOf(s.charAt(i));
+                    i++;
+                    while(s.charAt(i) != ' ') {
+                        num += s.charAt(i);
                         i++;
-                    }while(s.charAt(i) != ' ');
-                    values.push(toBePushed);
-                }
-                else if (Character.isDigit(s.charAt(i+1))){
-                    int counter = 0;
-                    for (int j = i; s.charAt(j) != ' '; ++j)counter++;
-                    int factor = (int) Math.pow(10,counter - 1);
-                    do{
-                        toBePushed += (((double)s.charAt(i) - 48) * factor);
-                        factor /= 10;
-                        i++;
-                    }while (s.charAt(i) != ' ');
-                    values.push(toBePushed);
+                    }
+                    values.push(Double.parseDouble(num));
                 }
                 else throw new RuntimeException();
             }
