@@ -55,7 +55,8 @@ public class ExpressionEvaluator {
                 }
                 values.push(result);
             }
-            else if (s.charAt(i) == ' '){}
+            else if (s.charAt(i) == ' ' || s.charAt(i) == '('){}
+            else throw new RuntimeException();
         }
         return values.pop();
     }
