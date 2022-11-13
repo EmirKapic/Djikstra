@@ -24,7 +24,7 @@ class ExpressionEvaluatorTest {
     void evaluateTest3(){
         String s = "( ( ( 1 + ( ( 5 / 3 ) + 6 ) ) / 4 ) * 6 )";
         assertEquals(13D, Math.round(e.evaluate(s)));
-        //Forced to round becasue difference was 10^-9
+        //Forced to round because difference was 10^-9
     }
 
     @Test

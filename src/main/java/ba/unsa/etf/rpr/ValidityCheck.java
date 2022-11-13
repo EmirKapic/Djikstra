@@ -3,6 +3,7 @@ package ba.unsa.etf.rpr;
 import java.util.Stack;
 
 import static ba.unsa.etf.rpr.OperatorAndOperand.isOperator;
+import static ba.unsa.etf.rpr.OperatorAndOperand.isSQRT;
 
 /**
  * Checks the validity of string passed to ExpressionEvaluator
@@ -27,15 +28,18 @@ class ValidityCheck {
             if (s.charAt(i) == '(') numberOfLeftPar++;
             if (s.charAt(i) == ')') numberOfRightPar++;
             if (isOperator(s.charAt(i))) {
-                if (!Character.isDigit(s.charAt(i-2)) || !Character.isDigit(s.charAt(i+2))){
-                    if (s.charAt(i-2) == ')' && (Character.isDigit(s.charAt(i+2)) || s.charAt(i+2) == '(')){}
-                    else if (s.charAt(i+2) == '(' && (Character.isDigit(s.charAt(i-2)) || s.charAt(i-2) == ')')){}
+                if ((!Character.isDigit(s.charAt(i-2)) && s.charAt(i-2) != 't') || (!Character.isDigit(s.charAt(i+2)) && s.charAt(i+2) != 's') ){
+                    if (s.charAt(i-2) == ')' && (Character.isDigit(s.charAt(i+2)) || s.charAt(i+2) == '(') || s.charAt(i+2) == 's'){}
+                    else if (s.charAt(i+2) == '(' && (Character.isDigit(s.charAt(i-2)) || s.charAt(i-2) == ')' || s.charAt(i-2) == 't')){}
                     else throw new RuntimeException();
 
                 }
                 numberOfOperators++;
             }
-
+            if (isSQRT(s,i)) {
+                i+=4;
+                numberOfOperators++;
+            }
         }
         //if not left_par == right_par == number_of_operations it is incorrect
         if (numberOfLeftPar != numberOfRightPar || numberOfLeftPar != numberOfOperators)

@@ -34,23 +34,36 @@ public class ExpressionEvaluator {
                 }
                 else throw new RuntimeException();
             }
+            else if (isSQRT(s,i)){
+                i+=7;
+                String num = String.valueOf(s.charAt(i));
+                i++;
+                while(s.charAt(i) != ' ') {
+                    num += s.charAt(i);
+                    i++;
+                }
+                values.push(Double.parseDouble(num));
+                operators.push("sqrt");
+            }
             else if (s.charAt(i) == ')'){
                 String operator = operators.pop();
-                Double value2 = values.pop();
-                Double value1 = values.pop();
+                Double value = values.pop();
                 Double result = 0D;
                 switch (operator) {
                     case "+":
-                        result = value1 + value2;
+                        result = values.pop() + value;
                         break;
                     case "-":
-                        result = value1 - value2;
+                        result = values.pop() - value;
                         break;
                     case "*":
-                        result = value1 * value2;
+                        result = values.pop() * value;
                         break;
                     case "/":
-                        result = value1 / value2;
+                        result = values.pop() / value;
+                        break;
+                    case "sqrt":
+                        result = Math.sqrt(value);
                         break;
                 }
                 values.push(result);

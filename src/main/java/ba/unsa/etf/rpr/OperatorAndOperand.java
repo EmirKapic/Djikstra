@@ -23,4 +23,12 @@ class OperatorAndOperand {
     static boolean isOperand(char c){
         return Character.isDigit(c);
     }
+
+    static boolean isSQRT(String s, int i){
+        if (s.charAt(i) != 's')return false;
+        if (s.substring(i, i + 4).equals("sqrt")){
+            return true;
+        }
+        else throw new RuntimeException();
+    }
 }
