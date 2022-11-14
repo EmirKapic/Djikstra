@@ -28,6 +28,9 @@ class ValidityCheck {
             if (s.charAt(i) == '(') numberOfLeftPar++;
             if (s.charAt(i) == ')') numberOfRightPar++;
             if (isOperator(s.charAt(i))) {
+                //Short explanation: the only allowed symbols around operators are as follows(i'll take + as an example operator and 1 as number):
+                // ) + 1, ) + (, ) + s, t + (, 1 + 1
+                //Everything else should fall
                 if ((!Character.isDigit(s.charAt(i-2)) && s.charAt(i-2) != 't') || (!Character.isDigit(s.charAt(i+2)) && s.charAt(i+2) != 's') ){
                     if (s.charAt(i-2) == ')' && (Character.isDigit(s.charAt(i+2)) || s.charAt(i+2) == '(') || s.charAt(i+2) == 's'){}
                     else if (s.charAt(i+2) == '(' && (Character.isDigit(s.charAt(i-2)) || s.charAt(i-2) == ')' || s.charAt(i-2) == 't')){}
