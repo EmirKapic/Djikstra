@@ -17,59 +17,43 @@ public class ExpressionEvaluator {
         check(s);
         Stack<String> operators = new Stack<>();
         Stack<Double> values = new Stack<>();
-
-        for (int i = 0; i < s.length(); ++i){
-            if (isOperator(s.charAt(i)))operators.push(String.valueOf(s.charAt(i)));
-            else if (isOperand(s.charAt(i))) {
-                if (s.charAt(i+1) == ' ') //if after the number there is only a space then it's not a decimal number and we can simply push
-                    values.push((double) s.charAt(i) - 48);
-                else if (Character.isDigit(s.charAt(i+1)) || s.charAt(i+1) == '.'){
-                    String num = String.valueOf(s.charAt(i));
-                    i++;
-                    while(s.charAt(i) != ' ') {
-                        num += s.charAt(i);
-                        i++;
-                    }
-                    values.push(Double.parseDouble(num));
-                }
-                else throw new RuntimeException();
-            }
-            else if (isSQRT(s,i)){
-                i+=7;
-                String num = String.valueOf(s.charAt(i));
-                i++;
-                while(s.charAt(i) != ' ') {
-                    num += s.charAt(i);
-                    i++;
-                }
-                values.push(Double.parseDouble(num));
-                operators.push("sqrt");
-            }
-            else if (s.charAt(i) == ')'){
-                String operator = operators.pop();
-                Double value = values.pop();
-                Double result = 0D;
-                switch (operator) {
+        for (String str : s.split(" ")){
+            if (str.equals("(")){}
+            else if (str.equals("+"))operators.push(str);
+            else if (str.equals("-"))operators.push(str);
+            else if (str.equals("*"))operators.push(str);
+            else if (str.equals("/"))operators.push(str);
+            else if (str.equals("sqrt"))operators.push(str);
+            else if (str.equals(")")){
+                String op = operators.pop();
+                Double v = values.pop();
+                switch (op) {
                     case "+":
-                        result = values.pop() + value;
+                        v = values.pop() + v;
                         break;
                     case "-":
-                        result = values.pop() - value;
+                        v = values.pop() - v;
                         break;
                     case "*":
-                        result = values.pop() * value;
+                        v = values.pop() * v;
                         break;
                     case "/":
-                        result = values.pop() / value;
+                        v = values.pop() / v;
                         break;
                     case "sqrt":
-                        result = Math.sqrt(value);
+                        v = Math.sqrt(v);
                         break;
                 }
-                values.push(result);
+                values.push(v);
             }
-            else if (s.charAt(i) == ' ' || s.charAt(i) == '('){}
-            else throw new RuntimeException();
+            else{
+                try{
+                    values.push(Double.parseDouble(str));
+                }
+                catch(Exception e){
+                    throw new RuntimeException();
+                }
+            }
         }
         return values.pop();
     }
