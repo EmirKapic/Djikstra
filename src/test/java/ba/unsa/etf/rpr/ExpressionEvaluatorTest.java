@@ -35,6 +35,14 @@ class ExpressionEvaluatorTest {
     }
 
     @Test
+    void evaluateTest5(){
+        //test for sqrt
+        String s = "( 1 + ( sqrt ( 225 ) / 5 ) )";
+        assertEquals(4D, e.evaluate(s));
+    }
+
+
+    @Test
     void evaluateExceptionsTest1(){
         //Correct numbner of parentheses but an operator is missing
         String s = "( 1 + ( ( 2 + 3 ) * ( 4  5 ) ) )";
