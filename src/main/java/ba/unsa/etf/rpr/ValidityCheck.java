@@ -18,6 +18,7 @@ class ValidityCheck {
     static void check(String s){
 
         s.trim();
+        if (s.isEmpty())throw new RuntimeException();
 
         //self-evident
         if (s.charAt(0) != '(' || s.charAt(s.length() - 1) != ')')throw new RuntimeException();
